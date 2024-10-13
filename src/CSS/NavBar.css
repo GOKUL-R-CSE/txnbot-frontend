@@ -1,0 +1,30 @@
+/* NavBar.css */
+.navbar {
+    background: linear-gradient(90deg, rgba(255, 105, 180, 1) 0%, rgba(255, 0, 184, 1) 50%, rgba(0, 213, 255, 1) 100%);
+    color: white; /* Text color to white */
+}
+
+.nav-link, .navbar-brand {
+    color: white !important; /* Override default link color */
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8) !important; /* Lighten on hover */
+}
+
+.dropdown-item {
+    color: black !important; /* Make dropdown items black */
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important; /* Light background on hover for dropdown */
+}
+
+.btn-danger {
+    background-color: rgba(255, 0, 0, 0.7); /* Semi-transparent red */
+    border: none; /* Remove border */
+}
+
+.btn-danger:hover {
+    background-color: rgba(255, 0, 0, 1); /* More opaque on hover */
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLogin } from '../Hooks/useLogin';
+import '../CSS/Login.css'; // Import the CSS file
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -12,7 +13,7 @@ const Login = () => {
     };
 
     return (
-        <div className="container d-flex justify-content-center align-items-center vh-100">
+        <div className="login-container d-flex justify-content-center align-items-center">
             <div className="card" style={{ width: '20rem' }}>
                 <img src='' alt="login" className="card-img-top" />
                 <div className="card-body">

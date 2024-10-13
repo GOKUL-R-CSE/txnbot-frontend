@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useSignup } from '../Hooks/useSignup';
+import '../CSS/Signup.css'; // Import the CSS file
 
 const Signup = () => {
     const [name, setName] = useState('');
@@ -13,7 +14,7 @@ const Signup = () => {
     };
 
     return (
-        <div className="container d-flex justify-content-center align-items-center vh-100">
+        <div className="signup-container d-flex justify-content-center align-items-center">
             <div className="card" style={{ width: '20rem' }}>
                 <img src='' alt="Signup" className="card-img-top" />
                 <div className="card-body">
