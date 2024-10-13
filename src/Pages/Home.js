@@ -1,17 +1,10 @@
 import React from 'react'
-import {useLogout} from '../Hooks/useLogout'
+import NavBar from '../Components/NavBar'
 
 const Home = () => {
 
-    const {logout} = useLogout()
-    const handleClick = () => {
-        logout()
-    }
-
   return (
-    <div>
-        <li onClick={handleClick} >Log out<i></i></li>
-    </div>
+    <NavBar/>
   )
 }
 
