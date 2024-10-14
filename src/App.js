@@ -1,9 +1,9 @@
 import './App.css';
+import './index.css';
+
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { useAuthContext } from './Hooks/useAuthContext';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Login from './Pages/Login';
 import Signup from './Pages/Signup'

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary, .btn-secondary {
+    @apply transition-transform duration-300; /* Tailwind applies great animations */
+}

@@ -13,33 +13,39 @@ const Login = () => {
     };
 
     return (
-        <div className="login-container d-flex justify-content-center align-items-center">
-            <div className="card" style={{ width: '20rem' }}>
-                <img src='' alt="login" className="card-img-top" />
+        <div className="login-container">
+            <div className="card">
+                <img src='https://via.placeholder.com/200' alt="login" className="img-logo" />
                 <div className="card-body">
+                    <h1 className='font-bold mb-4'>LOG IN</h1>
                     <form onSubmit={handleSubmit}>
-                        <h2 className="text-center">LOG IN</h2>
-                        <div className="mb-3">
-                            <label htmlFor="email" className="form-label">Email</label>
+                        <div className="mb-4">
+                            <label htmlFor="email" className="block text-gray-700">Email</label>
                             <input
                                 id='email'
                                 type="email"
-                                className="form-control"
+                                className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
                                 onChange={(e) => setEmail(e.target.value)}
                                 value={email}
+                                required
                             />
                         </div>
-                        <div className="mb-3">
-                            <label htmlFor="password" className="form-label">Password</label>
+                        <div className="mb-4">
+                            <label htmlFor="password" className="block text-gray-700">Password</label>
                             <input
                                 id='password'
                                 type="password"
-                                className="form-control"
+                                className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
                                 onChange={(e) => setPassword(e.target.value)}
                                 value={password}
+                                required
                             />
                         </div>
-                        <button type="submit" className="btn btn-primary w-100" disabled={isLoading}>
+                        <button 
+                            type="submit" 
+                            className={`btn btn-primary w-full`} 
+                            disabled={isLoading}
+                        >
                             {isLoading ? "Logging in..." : "Log in"}
                         </button>
                         {error && <div className="alert alert-danger mt-3">{error}...!</div>}
