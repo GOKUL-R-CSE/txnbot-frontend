@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <nav className="bg-gradient-to-r from-purple-700 to-blue-500 p-4 shadow-lg flex justify-between items-center">
             <div className="text-white font-bold text-xl">
-                <Link to="/">My App</Link>
+                <Link to="/">WaveBots</Link>
             </div>
 
             <div className="flex items-center space-x-4"> {/* Space between nav items */}
