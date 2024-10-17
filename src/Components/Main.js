@@ -7,7 +7,7 @@ const Main = () => {
         <div className="main-container">
             <div className="card">
                 <img 
-                    src='https://via.placeholder.com/300' // Adjusted for side by side layout
+                    src='https://img.freepik.com/premium-photo/chat-bot-3d_777576-10113.jpg' // Adjusted for side by side layout
                     alt='logo' 
                     className="img-logo" 
                 />

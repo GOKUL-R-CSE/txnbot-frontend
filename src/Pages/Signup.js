@@ -17,7 +17,7 @@ const Signup = () => {
         <div className="signup-container">
             <div className="signup-card">
                 <img 
-                    src='https://via.placeholder.com/200' 
+                    src='https://png.pngtree.com/png-vector/20220707/ourmid/pngtree-chatbot-robot-concept-chat-bot-png-image_5632381.png' 
                     alt="Signup" 
                     className="signup-logo" 
                 />

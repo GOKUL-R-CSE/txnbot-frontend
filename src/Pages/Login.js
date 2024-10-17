@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <div className="login-container">
             <div className="card">
-                <img src='https://via.placeholder.com/200' alt="login" className="img-logo" />
+                <img src='https://cdn.prod.website-files.com/5e42772e6a8cfd42a9715206/62d15bfed359cc963c6ebe27_Chatbot-Design_article-cover%20(1).jpg' alt="login" className="img-logo" />
                 <div className="card-body">
                     <h1 className='font-bold mb-4'>LOG IN</h1>
                     <form onSubmit={handleSubmit}>
